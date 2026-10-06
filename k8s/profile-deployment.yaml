@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: profile
-          image: rinafcode/teachlink-profile:latest
+          image: bodycountt/teachlink-profile:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000

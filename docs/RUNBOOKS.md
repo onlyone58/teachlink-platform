@@ -337,6 +337,6 @@ When a new alert is added to `prometheus-rules.yaml`:
 1. Add a matching `##` section to this file following the template above.
 2. Set the `runbook_url` annotation in the alert to point at the new section:
    ```
-   runbook_url: "https://github.com/rinafcode/teachLink_backend/blob/main/docs/RUNBOOKS.md#<anchor>"
+   runbook_url: "https://github.com/bodycountt/teachlink_backend/blob/main/docs/RUNBOOKS.md#<anchor>"
    ```
 3. Open a PR — runbook changes should be reviewed by the on-call rotation lead.

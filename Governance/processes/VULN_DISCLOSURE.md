@@ -12,7 +12,7 @@ request, and cannot stay under embargo forever.
 ## Scope
 
 This process applies to every vulnerability report concerning the TeachLink Web
-client in the `rinafcode/teachLink_web` repository, however it arrives: through
+client in the `bodycountt/teachlink_web` repository, however it arrives: through
 the private channel, by direct message to a maintainer, or as a public issue
 that a triager redirected. It covers a report from the moment it is received
 until the public advisory is published and the follow-up work is tracked.
@@ -28,7 +28,7 @@ pull request, a discussion, a commit message, or a social post before a fix has
 shipped. The channel is the same one described in `Governance/SECURITY_POLICY.md`:
 
 1. **Preferred: private vulnerability reporting on the repository.** In
-   `rinafcode/teachLink_web`, open the `Security` tab and choose `Report a
+   `bodycountt/teachlink_web`, open the `Security` tab and choose `Report a
    vulnerability`. This creates a private GitHub Security Advisory that only
    maintainers and the reporter can read, and it carries the conversation
    through to resolution. If this option is not yet enabled on the repository,

@@ -39,7 +39,7 @@ spec:
         fsGroup: 1001
       containers:
         - name: notification-system
-          image: rinafcode/teachlink-notification-system:latest
+          image: bodycountt/teachlink-notification-system:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000

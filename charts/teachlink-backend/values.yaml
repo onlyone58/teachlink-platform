@@ -7,7 +7,7 @@
 replicaCount: 2
 
 image:
-  repository: ghcr.io/rinafcode/teachlink-backend
+  repository: ghcr.io/bodycountt/teachlink-backend
   pullPolicy: IfNotPresent
   tag: ""          # Defaults to Chart.appVersion when empty
 
@@ -35,7 +35,7 @@ prometheusRule:
   # Base URL prepended to runbook fragment links embedded in alert annotations.
   # Point this at your Git-hosting URL so on-call engineers can click straight
   # through from Alertmanager / PagerDuty / Slack to the runbook section.
-  runbookBaseUrl: "https://github.com/rinafcode/teachLink_backend/blob/main/docs"
+  runbookBaseUrl: "https://github.com/bodycountt/teachlink_backend/blob/main/docs"
 
   # SLA thresholds – override per environment if needed.
   thresholds:

@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: sms-worker
-          image: rinafcode/teachlink-sms-worker:latest
+          image: bodycountt/teachlink-sms-worker:latest
           imagePullPolicy: Always
           resources:
             requests:

@@ -10,10 +10,10 @@ This repository is the **Next.js frontend**. It is one of four repositories that
 
 | Repo | Role | Stack |
 | --- | --- | --- |
-| **[teachLink_web](https://github.com/rinafcode/teachLink_web)** (this repo) | Web client | Next.js 15 (App Router), React 18, Tailwind |
-| [teachLink_backend](https://github.com/rinafcode/teachLink_backend) | Core API | NestJS, PostgreSQL, Redis/BullMQ |
-| [teachLink_contract](https://github.com/rinafcode/teachLink_contract) | On-chain rewards/escrow | Rust, Soroban (Stellar) |
-| [teachLink_mobile](https://github.com/rinafcode/teachLink_mobile) | Mobile app | Expo, React Native |
+| **[teachLink_web](https://github.com/bodycountt/teachlink_web)** (this repo) | Web client | Next.js 15 (App Router), React 18, Tailwind |
+| [teachLink_backend](https://github.com/bodycountt/teachlink_backend) | Core API | NestJS, PostgreSQL, Redis/BullMQ |
+| [teachLink_contract](https://github.com/bodycountt/teachlink_contract) | On-chain rewards/escrow | Rust, Soroban (Stellar) |
+| [teachLink_mobile](https://github.com/bodycountt/teachlink_mobile) | Mobile app | Expo, React Native |
 
 > The web app is an API client of `teachLink_backend` (via `NEXT_PUBLIC_API_URL`). On-chain actions (rewards, tipping, escrow) are mediated by the backend and the Soroban contract; the frontend does not talk to the chain directly.
 

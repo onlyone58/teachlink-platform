@@ -10,7 +10,7 @@ cadence at which the backlog is reviewed so that nothing rots quietly.
 
 ## Scope
 
-This process applies to issues filed in the `rinafcode/teachLink_web` repository.
+This process applies to issues filed in the `bodycountt/teachlink_web` repository.
 It covers first response, classification, validation, prioritisation, and routing
 to the right owner. It does not cover the design or scope of a proposed change,
 which belongs to the RFC process in `Governance/processes/RFC_PROCESS.md`, nor

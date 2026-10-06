@@ -10,7 +10,7 @@ commitments are checkable rather than implied.
 
 ## Scope
 
-This policy covers the TeachLink Web client in the `rinafcode/teachLink_web`
+This policy covers the TeachLink Web client in the `bodycountt/teachlink_web`
 repository: its application code, its build and CI configuration, its
 dependencies as they are vendored, and its documentation where a reader could be
 misled into an unsafe action. It covers defects that would let an attacker read
@@ -61,7 +61,7 @@ issue, a pull request, a discussion, a commit message, or a social post before a
 fix has shipped.
 
 1. **Preferred: private vulnerability reporting on the repository.** In
-   `rinafcode/teachLink_web`, open the `Security` tab and choose `Report a
+   `bodycountt/teachlink_web`, open the `Security` tab and choose `Report a
    vulnerability`. This creates a private GitHub Security Advisory that only
    maintainers and the reporter can read, and it carries the conversation
    through to resolution. If this option is not yet enabled on the repository,
